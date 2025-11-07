@@ -2,6 +2,8 @@
 Projeto ArqBio — desenvolvido pela equipe Young Creators para a FIRST LEGO League (FLL). Focado na preservação de artefatos arqueológicos, o ArqBio aplica princípios de robótica e tecnologia sustentável para monitorar temperatura e umidade, auxiliando pesquisas e conservação histórica.
 
 Equipamentos necessários e conexões:
+
+
                 +-------------------------------------+
                 |                ESP32                |
                 |                                     |
@@ -12,6 +14,7 @@ GPIO22 (SCL) --o| 22 (SCL)                         GND|o----+------ GND LCD / DH
 GPIO4  (DHT) --o|  4 (DATA)                           |
 GPIO25 (Buzz) -o| 25 (BUZZER +)                       |
                 +-------------------------------------+
+                
                  |                     |                         |
                  |                     |                         |
                  v                     v                         v
