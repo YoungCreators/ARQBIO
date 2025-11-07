@@ -28,7 +28,7 @@ const float HUM_OFF = 68.0;             // desliga alerta quando <= 68% (histere
 LiquidCrystal_I2C lcd(0x27, 16, 2);     // troque para 0x3F se necessário
 
 // ========= BUZZER =========
-#define BUZZER_PIN 25                   // recomendo 25 ou 26
+#define BUZZER_PIN 25                   // a equipe recomenda 25 ou 26
 const unsigned long BEEP_ON_MS  = 250;  // tempo tocando
 const unsigned long BEEP_OFF_MS = 750;  // tempo em silêncio
 bool buzzerOn = false;
